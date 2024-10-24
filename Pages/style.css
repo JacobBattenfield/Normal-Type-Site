@@ -1,0 +1,39 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{ 
+    background: linear-gradient(180deg, #f8f0e3, #e0d3b8, #c2b7a4);
+    height: 100vh;
+}
+header{
+    background-color: rgb(219, 212, 187);
+    padding:5px
+}
+.Logo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 3px;
+    flex-grow: 1;
+    margin: 0 15px 0 15px;
+}
+.Glyph,.Hamburger{
+    flex-shrink: 0;
+}
+.HeaderHolder{
+    width:50%;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Hero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.heroImg{
+    width:60%;
+    opacity: .6;
+    ;
+}
